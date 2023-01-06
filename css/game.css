@@ -1,0 +1,42 @@
+body{
+  background-color: #000;
+}
+
+.canvas {
+    transform: translate(-50%, -50%);
+    border: 5px solid black;
+    background: #4d79bc;
+    position: absolute;
+    max-height: 100%;
+    max-width: 100%;
+    left: 50%;
+    top: 50%;
+  }
+
+  .angler1,.angler1,.angler2,
+   .drone,.hivewhale,.lucky ,.fireExplosion,
+   .smokeExplosion,.gears,.layer1,
+   .layer2, .layer3, .layer4, .player, .projectile{
+    display: none;
+  }
+
+  .root {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .icons span{
+    font-size: 2em;
+    background-color: rgb(75, 75, 158);
+    border-radius: 4px;
+    margin: 10px 0 0 20px;
+    border: 2px solid #ffffbd;
+    color: #000;
+    padding-left: .2em;
+}
+
+a{
+  text-decoration: none;
+}
+  
